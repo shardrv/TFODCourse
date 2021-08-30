@@ -18,3 +18,8 @@ For CUDA 10.0, try:
 sudo  /usr/local/cuda/bin/uninstall_cuda_10.0.pl
 ```
 
+## Installing
+
+https://medium.com/@exesse/cuda-10-1-installation-on-ubuntu-18-04-lts-d04f89287130
+
+
