@@ -64,3 +64,9 @@ https://github.com/NVIDIA/nvidia-container-runtime
 
 https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
 
+http://google.github.io/proto-lens/installing-protoc.html
+
+This one here
+
+https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
+
