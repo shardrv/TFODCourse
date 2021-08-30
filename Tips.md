@@ -54,3 +54,7 @@ sudo apt-get purge -y docker-ce-rootless-extras
 You have removed Docker from the system completely.
 
 
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
+
