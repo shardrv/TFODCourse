@@ -70,3 +70,25 @@ This one here
 
 https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
 
+
+
+
+# Inside Docker for Object Detection tf3d
+
+pip3 install gin-config
+
+pip3 install tensorflow-datasets
+
+pip3 install tensorflow_probability==0.11.0
+
+pip3 install shapely
+
+pip3 install object_detection
+
+Error
+    from object_detection.protos import string_int_label_map_pb2
+ImportError: cannot import name 'string_int_label_map_pb2'
+
+
+# Installing protobuf
+https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
