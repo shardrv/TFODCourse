@@ -5,6 +5,11 @@
 virtualenv --python=/usr/bin/python3.8 venvnew
 ```
 
+## For using virtualenv kernel inside the jupyter notebook
+```
+python -m ipykernel install --user --name=venv
+```
+
 ## Uninstalling CUDA
 
 
