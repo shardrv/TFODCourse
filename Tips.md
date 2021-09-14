@@ -97,3 +97,11 @@ ImportError: cannot import name 'string_int_label_map_pb2'
 
 # Installing protobuf
 https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
+
+# Running gsutil conflicts with another package
+
+Do a *which gsutil*
+
+cd into the directory 
+
+Run the gsutil using ./gsutil ........
