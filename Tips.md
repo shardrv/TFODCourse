@@ -105,3 +105,6 @@ Do a *which gsutil*
 cd into the directory 
 
 Run the gsutil using ./gsutil ........
+
+https://medium.com/codex/how-to-use-gsutil-and-python-to-deal-with-files-in-google-cloud-storage-fc4f430b3b28
+
