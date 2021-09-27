@@ -2,6 +2,7 @@
 
 #!/bin/bash
 
+# This file is copied from https://gist.github.com/bogdan-kulynych/f64eb148eeef9696c70d485a76e42c3a
 # Purge existign CUDA first
 sudo apt --purge remove "cublas*" "cuda*"
 sudo apt --purge remove "nvidia*"
