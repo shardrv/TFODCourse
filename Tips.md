@@ -108,3 +108,15 @@ Run the gsutil using ./gsutil ........
 
 https://medium.com/codex/how-to-use-gsutil-and-python-to-deal-with-files-in-google-cloud-storage-fc4f430b3b28
 
+
+# To enable GPU need to access -> software-properties-gtk
+## Issue cannot open the gtk
+
+Reinstall python3-six && python3-dateutil
+
+```
+sudo apt install python3-dateutil --reinstall
+sudo apt install python3-six --reinstall
+
+```
+
