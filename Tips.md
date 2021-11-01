@@ -5,6 +5,27 @@
 virtualenv --python=/usr/bin/python3.8 venvnew
 ```
 
+ImportError: No module named pkg_resources: the solution is to reinstall python pip using the following Command are under.
+
+```
+Step: 1 Login in root user.
+
+Step: 2 Uninstall python-pip package if existing.
+
+sudo apt-get purge -y python-pip
+Step: 3 Download files using wget command(File download in pwd )
+
+wget https://bootstrap.pypa.io/get-pip.py
+Step: 4 Run python file.
+
+sudo -H python3 ./get-pip.py
+Step: 5 Finaly exicute installation command.
+
+sudo apt-get install python-pip
+```
+
+ImportError
+
 ## For using virtualenv kernel inside the jupyter notebook
 ```
 python -m ipykernel install --user --name=venv
