@@ -140,4 +140,16 @@ sudo apt install python3-dateutil --reinstall
 sudo apt install python3-six --reinstall
 
 ```
+# ROS STUFF
 
+Helped in quaternions  conversion
+
+https://gist.github.com/LimHyungTae/2499a68ea8ee4d8a876a149858a5b08e
+
+http://wiki.ros.org/tf2/Tutorials/Quaternions
+
+https://stackoverflow.com/questions/55150211/how-to-calculate-relative-pose-between-two-objects-and-put-them-in-a-transformat
+
+https://answers.ros.org/question/332407/transformstamped-to-transformation-matrix-python/
+
+https://github.com/wsnewman/learning_ros/blob/master/Part_2/example_tf_listener/src/example_tf_listener_fncs.cpp
