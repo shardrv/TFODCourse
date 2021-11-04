@@ -153,3 +153,10 @@ https://stackoverflow.com/questions/55150211/how-to-calculate-relative-pose-betw
 https://answers.ros.org/question/332407/transformstamped-to-transformation-matrix-python/
 
 https://github.com/wsnewman/learning_ros/blob/master/Part_2/example_tf_listener/src/example_tf_listener_fncs.cpp
+
+# When the compiler says no cuda found - please add in path do this
+```
+export CUDA_HOME=/usr/local/cuda
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64
+export PATH=$PATH:$CUDA_HOME/bin
+```
